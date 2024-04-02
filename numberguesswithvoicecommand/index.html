@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess with Voice command</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Number Guess Project with voice command</h1>
+        <p>Guess a number between <span class="minnumber">0</span> to <span class="maxnumber">5</span> </p>
+    </div>
+    <div id="game-container">
+        <input type="number" name="guessnumber" id="guessnumber" class="form-control" placeholder="Guess Number" />
+        <input type="submit" id="btn" class="btn"/>
+
+        <span class="message1">Message 1</span>
+        <span class="message2">Message 2</span>
+    </div>
+
+    <button type="button" id="mic-btn" class="mic-btn"> <i class="fas fa-microphone"></i> Use Microphone</button>
+
+    <div class="voice-container">
+        <!-- <span class="voicemessage">Did you say!!</span> -->
+    </div>
+
+
+    <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>
